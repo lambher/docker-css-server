@@ -1,8 +1,8 @@
 # Counter-Strike: Source Server
 
-![Docker Build Status](https://img.shields.io/docker/build/threesquared/docker-css-server.svg)
+![Docker Build Status](https://img.shields.io/docker/cloud/build/threesquared/docker-css-server.svg)
 ![Docker Pulls](https://img.shields.io/docker/pulls/threesquared/docker-css-server.svg)
-![MicroBadger Size](https://img.shields.io/microbadger/image-size/image-size/threesquared/docker-css-server.svg)
+[![](https://images.microbadger.com/badges/image/threesquared/docker-css-server.svg)](https://microbadger.com/images/threesquared/docker-css-server)
 
 > Dockerfile to run a CS:S srcds server
 
