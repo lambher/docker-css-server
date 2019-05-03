@@ -1,0 +1,6 @@
+@ShutdownOnFailedCommand 0
+@NoPromptForPassword 1
+login anonymous
+force_install_dir /home/steam/server
+app_update 232330 validate
+quit
