@@ -21,8 +21,6 @@ RUN mkdir /home/steam/.steam/sdk32 && \
 COPY ./entrypoint.sh /home/steam/entrypoint.sh
 COPY ./update.txt /home/steam/update.txt
 
-VOLUME /home/steam/server/cstrike
-
 EXPOSE 27005/udp
 EXPOSE 27015
 EXPOSE 27015/udp
