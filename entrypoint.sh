@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp -n /home/steam/belair_map/cstrike /home/steam/server/cstrike
+cp -r /home/steam/belair_map/cstrike /home/steam/server/cstrike
 
 cd /home/steam/server
 
