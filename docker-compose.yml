@@ -4,8 +4,8 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      - RCON_PASSWORD=mypass
-      - SERVER_HOSTNAME="My Server"
+      - RCON_PASSWORD=${RCON_PASSWORD}
+      - SERVER_HOSTNAME=${SERVER_HOSTNAME}
     ports:
       - "27005:27005/udp"
       - "27015:27015"
@@ -13,4 +13,3 @@ services:
     volumes:
       - ./cfg:/home/steam/server/cstrike/cfg
       - ./belair_map/:/home/steam/belair_map
- 
