@@ -1,0 +1,15 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - RCON_PASSWORD=mypass
+      - SERVER_HOSTNAME="My Server"
+    ports:
+      - "27005:27005/udp"
+      - "27015:27015"
+      - "27015:27015/udp"
+    volumes:
+      - ./cfg:/home/steam/server/cstrike/cfg
+      - ./maps:/home/steam/server/cstrike/maps
