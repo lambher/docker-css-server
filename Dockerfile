@@ -15,7 +15,7 @@ RUN mkdir /home/steam/server && \
     +app_update 232330 validate \
     +quit
 
-RUN mkdir /home/steam/.steam/sdk32 && \
+RUN mkdir -p /home/steam/.steam/sdk32 && \
     ln -s /home/steam/server/bin/steamclient.so /home/steam/.steam/sdk32/steamclient.so
 
 COPY ./entrypoint.sh /home/steam/entrypoint.sh
