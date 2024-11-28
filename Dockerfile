@@ -38,5 +38,4 @@ WORKDIR /home/steam
 
 ENTRYPOINT ["./entrypoint.sh"]
 
-CMD ["+maxplayers", "16", "+mapcyclefile", "mapcycle.txt"]
-
+CMD ["+maxplayers", "16", "+map", "cs_belair73"]
