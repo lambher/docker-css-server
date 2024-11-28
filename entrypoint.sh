@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cp -r /home/steam/belair_map/cstrike /home/steam/server/
+cp -r /home/steam/addons /home/steam/server/cstrike/
 
 cd /home/steam/server
 

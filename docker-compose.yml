@@ -13,3 +13,4 @@ services:
     volumes:
       - ./cfg:/home/steam/server/cstrike/cfg
       - ./belair_map/:/home/steam/belair_map
+      - ./addons/:/home/steam/addons
