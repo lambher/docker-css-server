@@ -12,5 +12,5 @@ services:
       - "27015:27015/udp"
     volumes:
       - ./cfg:/home/steam/server/cstrike/cfg
-      - ./belair_map/cstrike/:/home/steam/server/cstrike/
+      - ./belair_map/cstrike/maps:/home/steam/server/cstrike/maps
  
