@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cp -n /home/steam/belair_map/cstrike /home/steam/server/cstrike
+
 cd /home/steam/server
 
 if [ -d /home/steam/public_html ]; then
