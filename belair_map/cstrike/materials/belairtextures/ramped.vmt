@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "belairtextures/ramped"
+	"$translucent" 1
+}
