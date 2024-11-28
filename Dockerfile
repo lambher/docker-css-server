@@ -38,4 +38,5 @@ WORKDIR /home/steam
 
 ENTRYPOINT ["./entrypoint.sh"]
 
-CMD ["+maxplayers", "16", "+map", "de_dust2"]
+CMD ["+maxplayers", "16", "+mapcyclefile", "mapcycle.txt"]
+
