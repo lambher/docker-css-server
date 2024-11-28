@@ -1,6 +1,5 @@
 services:
   server:
-    container_name: css
     build:
       context: .
       dockerfile: Dockerfile
