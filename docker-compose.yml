@@ -6,6 +6,7 @@ services:
     environment:
       - RCON_PASSWORD=${RCON_PASSWORD}
       - SERVER_HOSTNAME=${SERVER_HOSTNAME}
+      - SV_PASSWORD=${SV_PASSWORD:-}
     ports:
       - "27005:27005/udp"
       - "27015:27015"
