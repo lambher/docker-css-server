@@ -10,8 +10,8 @@ RUN apt-get update -y && \
 USER steam
 
 RUN mkdir /home/steam/server && \
-    /home/steam/steamcmd/steamcmd.sh +login anonymous \
-    +force_install_dir /home/steam/server \
+    /home/steam/steamcmd/steamcmd.sh +force_install_dir /home/steam/server \
+    +login anonymous \
     +app_update 232330 validate \
     +quit
 
